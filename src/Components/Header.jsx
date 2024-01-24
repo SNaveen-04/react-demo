@@ -1,11 +1,6 @@
-import styles from '../styles/app.module.css'
-const Header = (props) => {
+const Header = () => {
   return (
-    <header className={styles.header}>
-    <h3>
-      {props.data}
-    </h3>
-    </header>
+    <div>Header</div>
   )
 }
 
