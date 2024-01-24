@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Btn from './Btn'
 import { Button } from 'semantic-ui-react'
+import Class from './Class'
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <hr/>
       <Btn setState={setState}/>
       <hr/>
+      {state &&<Class/>}
     </>
   )
 }
