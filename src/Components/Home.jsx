@@ -1,6 +1,11 @@
+import Header from "./Header"
+
+
 const Home = () => {
   return (
-    <h3>Home</h3>
+    <div>
+      <Header data='Home'/>
+    </div>
   )
 }
 export default Home
