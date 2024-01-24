@@ -45,15 +45,7 @@
         "id":8,
       "name":"tharish",
       "age":20,
-      "college":"SREC"les/app.module.css'
-
-      const Test = () => {
-        return (
-          <div>
-          <form></form>
-          les.CardContainer}>
-          <Grid  columns={4} textAlign="center" verticalAlign="middle">
-            {users.map(({id,...rest})=><UserCard key={id} user={rest}/>)}
+      "college":"SREC"
     },
     {
         "id":9,
